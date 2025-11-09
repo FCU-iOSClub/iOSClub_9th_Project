@@ -19,12 +19,21 @@ struct ContentView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("這是第九屆社課專案解答以及詳細註解解釋\n如果有問題歡迎與 iOS Club 社群小編聯絡\n我們會有專人為您解答")
+                Text("這是第九屆社課專案解答以及詳細註解解釋，如果有問題歡迎與 iOS Club 社群小編聯絡，我們會有專人為您解答，若有發現bug也歡迎使用pull request來改善此專案")
                     .multilineTextAlignment(.center)
+                    .font(.system(size: 30))
+                    .padding()
                             
                 
-                Text("IG: fcu.iosclub")
-                    .font(.title3)
+                HStack {
+                    Image("IG")
+                        .resizable()
+                        .frame(width: 50, height: 50)
+                        .clipShape(.rect(cornerRadius: 8))
+                    
+                    Text("IG: fcu.iosclub")
+                        .font(.title3)
+                }
             }
         }
     }
