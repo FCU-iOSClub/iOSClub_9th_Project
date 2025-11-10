@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack {
             VStack {
                 Text("歡迎來到逢甲大學 iOS Club")
                     .font(.system(size: 30))
@@ -25,18 +24,27 @@ struct ContentView: View {
                     .padding()
                             
                 
-                HStack {
-                    Image("IG")
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .clipShape(.rect(cornerRadius: 8))
+//                HStack {
+//                    Image("IG")
+//                        .resizable()
+//                        .frame(width: 50, height: 50)
+//                        .clipShape(.rect(cornerRadius: 8))
+//
+//                    Text("IG: fcu.iosclub")
+//                        .font(.title3)
+//                }
+//                Image("IG")
+//                    .resizable()
+//                    .frame(width: 50, height: 50)
+//                    .opacity(0.8)
+//                    .clipShape(.rect(cornerRadius: 8))
+                Spacer()
+            Text("fcu.iosclub")
+                    .font(.largeTitle)
                     
-                    Text("IG: fcu.iosclub")
-                        .font(.title3)
-                }
             }
         }
-    }
+    
 }
 
 #Preview {
