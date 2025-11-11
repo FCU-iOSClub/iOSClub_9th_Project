@@ -3,7 +3,7 @@
 import SwiftUI
 
 // IG 聊天室模擬畫面
-struct ContentView: View {
+struct ig_view: View {
 
     // 宣告變數 textContent，資料型別為 String
     // 用於下方輸入框的文字綁定
@@ -90,5 +90,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ig_view()
 }
