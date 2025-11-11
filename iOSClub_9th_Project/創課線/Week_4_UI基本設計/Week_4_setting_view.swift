@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct setting_view {   // 宣告變數 name，資料型別為 String
+struct setting_view: View {   // 宣告變數 name，資料型別為 String
     // 用於儲存使用者的姓名
     @State var name: String = ""
     
