@@ -6,7 +6,7 @@ iOSClub_9th_Project 目錄中包含第九屆 iOS Club 社課使用的程式碼�
 
 - `iOSClub_9th_Project/`
   - `程式線/`：程式線課程範例與解題程式碼，包含每週課程的 demo 與作業參考。
-  - `創課線/`：
+  - `創客線/`：創客線課程範例與解題程式碼，包含每週課程的 demo 與作業參考。 
 - `iOSClub_9th_Project.xcodeproj`：對應的 Xcode 專案檔，開啟後可選擇程式線或創課線 target 進行編譯與測試。
 
 ## 使用方式
