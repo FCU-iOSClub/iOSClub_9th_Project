@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct buy_drink: View {
 
     // 宣告變數 textContent，資料型別為 String
     // 用於儲存 TextField 內容
@@ -82,5 +82,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    buy_drink()
 }

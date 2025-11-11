@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct youtube_playing_screen: View {
     var body: some View {
         ZStack{
             
@@ -52,5 +52,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    youtube_playing_screen()
 }
