@@ -6,13 +6,13 @@ iOSClub_9th_Project 目錄中包含第九屆 iOS Club 社課使用的程式碼�
 
 - `iOSClub_9th_Project/`
   - `程式線/`：程式線課程範例與解題程式碼，包含每週課程的 demo 與作業參考。
-  - `創課線/`：
+  - `創客線/`：創客線課程範例與解題程式碼，包含每週課程的 demo 與作業參考。 
 - `iOSClub_9th_Project.xcodeproj`：對應的 Xcode 專案檔，開啟後可選擇程式線或創課線 target 進行編譯與測試。
 
 ## 使用方式
 
 1. 使用 Xcode 15 以上版本開啟 `iOSClub_9th_Project.xcodeproj`。
-2. 依照你參與的路線選擇 target（ProgramLine 或 CreativeLine）。
+2. 依照你參與的課程路線選擇 「創客線」 或 「程式線」。
 3. 參考各資料夾內的註解與 README，跟著社課進度實作或複習。
 
 ## 其他說明
