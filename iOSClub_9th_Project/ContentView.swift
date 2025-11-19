@@ -24,20 +24,6 @@ struct ContentView: View {
                     .padding()
                             
                 
-//                HStack {
-//                    Image("IG")
-//                        .resizable()
-//                        .frame(width: 50, height: 50)
-//                        .clipShape(.rect(cornerRadius: 8))
-//
-//                    Text("IG: fcu.iosclub")
-//                        .font(.title3)
-//                }
-//                Image("IG")
-//                    .resizable()
-//                    .frame(width: 50, height: 50)
-//                    .opacity(0.8)
-//                    .clipShape(.rect(cornerRadius: 8))
                 Spacer()
             Text("fcu.iosclub")
                     .font(.largeTitle)
