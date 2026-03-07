@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_6_TryTryView: View {
+struct First_Semester_Week_6_TryTryView: View {
     var body: some View {
         VStack { // 垂直堆疊
             ForEach(0 ..< 6) { index in // 使用 ForEach 來重複呼叫 TemplateView 並且傳入資料 6 次
@@ -34,5 +34,5 @@ struct TemplateView: View { // 建立 TemplateView 模板，透過傳入資料�
 }
 
 #Preview {
-    Week_6_TryTryView()
+    First_Semester_Week_6_TryTryView()
 }

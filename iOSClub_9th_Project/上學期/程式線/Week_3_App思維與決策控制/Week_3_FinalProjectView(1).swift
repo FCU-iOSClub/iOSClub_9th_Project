@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_3_FinalProjectView: View {
+struct First_Semester_Week_3_FinalProjectView: View {
     
     @State var resultContent: String = "請輸入數字" // 用變數儲存 resultContent 內容
     @State var textContent: String = "" // 用變數儲存 textContent 內容
@@ -58,5 +58,5 @@ struct Week_3_FinalProjectView: View {
 }
 
 #Preview {
-    Week_3_FinalProjectView()
+    First_Semester_Week_3_FinalProjectView()
 }

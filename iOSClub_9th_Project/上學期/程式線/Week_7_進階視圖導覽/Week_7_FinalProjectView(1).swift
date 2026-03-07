@@ -8,7 +8,7 @@
 import SwiftUI
 
 // ContentView 是應用程式的主要視圖 (View)，也是整個 App 的進入點。
-struct Week_7_FinalProjectView: View {
+struct First_Semester_Week_7_FinalProjectView: View {
     
     // @State 是一個屬性包裝器，用於在 SwiftUI 視圖中管理狀態，當被 @State 包裝的屬性值改變時，SwiftUI 會自動重新渲染視圖，以反映最新的狀態。
     // 'cart' 是一個儲存訂單項目的陣列，型別為 [OrderItem]，代表我們在這裡初始化一個空的購物車。
@@ -40,6 +40,6 @@ struct Week_7_FinalProjectView: View {
 }
 
 #Preview {
-    Week_7_FinalProjectView()
+    First_Semester_Week_7_FinalProjectView()
 }
 

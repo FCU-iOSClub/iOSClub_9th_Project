@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_8_FinalProjectView: View {
+struct First_Semester_Week_8_FinalProjectView: View {
     var body: some View {
         GeometryReader { geometry in // 取得螢幕寬度與高度（用來做自適應排版）
             
@@ -65,5 +65,5 @@ struct Week_8_FinalProjectView: View {
 }
 
 #Preview {
-    Week_8_FinalProjectView()
+    First_Semester_Week_8_FinalProjectView()
 }

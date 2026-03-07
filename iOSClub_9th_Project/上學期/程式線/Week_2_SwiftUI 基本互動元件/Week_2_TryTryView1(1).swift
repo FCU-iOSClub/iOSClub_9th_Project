@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_2_TryTryView1: View {
+struct First_Semester_Week_2_TryTryView1: View {
     
     @State var textSize: Double = 30.0 // 用變數儲存 Slider 數值,以及字體大小
     
@@ -34,5 +34,5 @@ struct Week_2_TryTryView1: View {
 }
 
 #Preview {
-    Week_2_TryTryView1()
+    First_Semester_Week_2_TryTryView1()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_8_TryTryView: View {
+struct First_Semester_Week_8_TryTryView: View {
     var body: some View {
         GeometryReader { geo in // 使用 GeometryReader 取得螢幕寬度，用來動態調整區塊比例
             
@@ -29,5 +29,5 @@ struct Week_8_TryTryView: View {
 }
 
 #Preview {
-    Week_8_TryTryView()
+    First_Semester_Week_8_TryTryView()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_3_TryTryView: View {
+struct First_Semester_Week_3_TryTryView: View {
     
     @State var isShow: Bool = false // 用變數儲存 isShow 布林值
     
@@ -29,5 +29,5 @@ struct Week_3_TryTryView: View {
 }
 
 #Preview {
-    Week_3_TryTryView()
+    First_Semester_Week_3_TryTryView()
 }

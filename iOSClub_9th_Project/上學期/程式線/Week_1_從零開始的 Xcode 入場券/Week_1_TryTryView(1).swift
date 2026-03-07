@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_1_TryTryView: View {
+struct First_Semester_Week_1_TryTryView: View {
     var body: some View {
         VStack { // 垂直方向堆疊
             HStack { // 水平方向堆疊
@@ -28,5 +28,5 @@ struct Week_1_TryTryView: View {
 }
 
 #Preview {
-    Week_1_TryTryView()
+    First_Semester_Week_1_TryTryView()
 }

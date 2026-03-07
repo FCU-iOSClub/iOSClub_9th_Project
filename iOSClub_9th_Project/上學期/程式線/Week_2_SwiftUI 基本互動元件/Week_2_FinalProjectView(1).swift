@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_2_FinalProjectView: View {
+struct First_Semester_Week_2_FinalProjectView: View {
     
     @State var textContent: String = "🌞" // 用變數儲存 textContent 內容
     @State var isShow: Bool = false // 用變數儲存 isShow 布林值
@@ -72,5 +72,5 @@ struct Week_2_FinalProjectView: View {
 }
 
 #Preview {
-    Week_2_FinalProjectView()
+    First_Semester_Week_2_FinalProjectView()
 }

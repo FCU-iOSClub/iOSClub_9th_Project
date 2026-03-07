@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_2_TryTryView2: View {
+struct First_Semester_Week_2_TryTryView2: View {
     
     @State var textContent: String = "變色龍會變色是因為他是變色龍" // 用變數儲存 textContent 內容
     @State var red: Double = 0.0 // 用變數儲存 red 數值
@@ -61,5 +61,5 @@ struct Week_2_TryTryView2: View {
 }
 
 #Preview {
-    Week_2_TryTryView2()
+    First_Semester_Week_2_TryTryView2()
 }

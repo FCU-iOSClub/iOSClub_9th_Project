@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_6_FinalProjectView: View {
+struct First_Semester_Week_6_FinalProjectView: View {
     
     let movies: [String] = ["3_Body_Problem",
                             "BoJack_Horseman",
@@ -80,5 +80,5 @@ struct MovieTemplateView: View {
 }
 
 #Preview {
-    Week_6_FinalProjectView()
+    First_Semester_Week_6_FinalProjectView()
 }

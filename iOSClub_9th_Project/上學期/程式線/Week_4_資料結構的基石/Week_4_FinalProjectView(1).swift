@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_4_FinalProjectView: View {
+struct First_Semester_Week_4_FinalProjectView: View {
     
     @State var toDo: [String] = ["遛狗", "吃晚餐", "抓蝴蝶", "cosplay水果奶奶"] // 儲存變數 toDo 陣列資料
     @State var textContent: String = "" // 儲存變數 textContent 內容
@@ -45,5 +45,5 @@ struct Week_4_FinalProjectView: View {
 }
 
 #Preview {
-    Week_4_FinalProjectView()
+    First_Semester_Week_4_FinalProjectView()
 }

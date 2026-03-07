@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_1_FinalProjectView: View {
+struct First_Semester_Week_1_FinalProjectView: View {
     var body: some View {
         ZStack { // Z 軸方向堆疊
             Image("background") // 使用 Image 來顯示圖片
@@ -43,5 +43,5 @@ struct Week_1_FinalProjectView: View {
 }
 
 #Preview {
-    Week_1_FinalProjectView()
+    First_Semester_Week_1_FinalProjectView()
 }

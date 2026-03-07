@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week_9_TryTryView: View {
+struct First_Semester_Week_9_TryTryView: View {
     
     @State var index: Int = 0 // 當前顯示的動畫圖片編號（0～13），用來做逐格動畫
     @State var isWalking: Bool = true // 控制Duck目前在哪個位置（true=起點、false=終點）
@@ -44,5 +44,5 @@ struct Week_9_TryTryView: View {
 }
 
 #Preview {
-    Week_9_TryTryView()
+    First_Semester_Week_9_TryTryView()
 }
