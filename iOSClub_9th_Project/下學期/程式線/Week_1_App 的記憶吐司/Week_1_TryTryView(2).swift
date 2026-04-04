@@ -31,6 +31,7 @@ struct Second_Semester_Week_1_TryTryView: View {
                     Image("image")
                         .resizable()
                         .frame(width: 200, height: 200)
+                        .clipShape(RoundedRectangle(cornerRadius: 16))
                     // 顯示目前 name 的內容。
                     Text(name)
                         .font(.system(size: 30))
