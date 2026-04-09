@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 import FirebaseCore
+import SwiftData
 
 class AppDelegate: NSObject, UIApplicationDelegate {
   func application(_ application: UIApplication,
@@ -28,6 +29,7 @@ struct YourApp: App {
     WindowGroup {
       NavigationView {
         ContentView()
+              .modelContainer(for: DataItem.self)
       }
     }
   }

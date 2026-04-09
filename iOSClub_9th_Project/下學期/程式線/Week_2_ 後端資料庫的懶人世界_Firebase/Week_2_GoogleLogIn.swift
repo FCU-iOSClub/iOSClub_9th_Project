@@ -32,6 +32,8 @@ struct Week_2_GoogleLogIn: View {
                     }
                 }
         }
+        Text("Google SignIn 需要實機部署才能進行測試")
+            .bold()
     }
     func startGoogleSignIn() {
         // 1. 取得 Client ID
